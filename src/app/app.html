@@ -10,6 +10,7 @@
 
 <main>
   <button (click)="cargarPanel()" [disabled]="cargando()">Ver mis prestamos</button>
+    <button (click)="pedirPrestamo(4)">Pedir el libro 4</button>
 
   <ul>
     @for (p of panel(); track p.id) {
